@@ -13,6 +13,7 @@ Discover the secrets behind phone numbers with this Python script! 🔍
 
 ✅ Validation & Possibility: Check if the number is valid and possible.
 
+
 🛠️ Requirements:
 
 Python 3.x
@@ -21,11 +22,13 @@ phonenumbers library: Install with:
 
 pip install phonenumbers
 
+
 🚀 Example Usage:
 
 number = input("Enter the phone number (with country code, e.g., +12025550123): ")
 
 get_phone_info(number)
+
 
 📝 How It Works:
 
@@ -38,6 +41,7 @@ Parses the entered phone number.
 Retrieves metadata like location, carrier, time zones, and number type.
 
 Output: Displays the gathered information in an easy-to-read format.
+
 
 📜 License:
 
